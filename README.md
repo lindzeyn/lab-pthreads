@@ -8,7 +8,7 @@ machine learning and data science algorithms.
 ## Matrix-Vector Multiplication
 Let *A* be a *m*-by-*n* matrix (table of numbers). Let *x* be a *n*-by-*1* vector (array of *n* numbers). The *matrix-vector* multiplication *Ax* results in a *m*-by-*1* vector *y* defined as follows.
 ![Screenshot from 2022-02-12 02-20-32](https://user-images.githubusercontent.com/5934852/153705487-0600ad93-a10a-4390-aba5-6d197b21af69.png)
-
+Although *A* is a 2-dimensional object, in our code, we have *flattened* *A* to be 1-dimension array of numbers of length *m x n*. This is a common and efficient way of representing multidimensional data.
 ## Serial Implementation
 In *serial* (i.e., a single thread) build a *m*-by-*n* matrix *A* filled with random numbers, and a *n*-by-*1* vector *x* filled with random numbers. Then write a serial matrix-vector multiplication routine that returns *Ax = y*.
 
